@@ -39,13 +39,13 @@
             this.timeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.courseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roomNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dtgBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dtgBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dtgBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.listBBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.timeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -66,6 +66,8 @@
             // 
             // listBox1
             // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(28, 96);
@@ -76,6 +78,8 @@
             // 
             // listBox2
             // 
+            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox2.DataSource = this.listBBindingSource;
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 15;
@@ -91,6 +95,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -101,7 +108,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(400, 96);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(465, 301);
+            this.dataGridView1.Size = new System.Drawing.Size(368, 301);
             this.dataGridView1.TabIndex = 4;
             // 
             // timeFkDataGridViewTextBoxColumn
@@ -131,13 +138,13 @@
             this.roomNameDataGridViewTextBoxColumn.HeaderText = "RoomName";
             this.roomNameDataGridViewTextBoxColumn.Name = "roomNameDataGridViewTextBoxColumn";
             // 
-            // dtgBindingSource
-            // 
-            this.dtgBindingSource.DataSource = typeof(Zh2_NTPSHY.Dtg);
-            // 
             // dtgBindingSource1
             // 
             this.dtgBindingSource1.DataSource = typeof(Zh2_NTPSHY.Dtg);
+            // 
+            // dtgBindingSource
+            // 
+            this.dtgBindingSource.DataSource = typeof(Zh2_NTPSHY.Dtg);
             // 
             // UserControl1
             // 
@@ -154,8 +161,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.listBBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.timeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
