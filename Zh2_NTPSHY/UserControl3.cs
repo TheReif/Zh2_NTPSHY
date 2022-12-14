@@ -30,6 +30,11 @@ namespace Zh2_NTPSHY
         }
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if(MessageBox.Show("Biztos", "Biztos", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+
+            
             var index = ((Lesson)listBox1.SelectedItem).LessonSk;
 
             var törlendő = from x in context.Lessons
@@ -47,6 +52,7 @@ namespace Zh2_NTPSHY
             {
 
                 MessageBox.Show(ex.Message);
+            }
             }
         }
 
