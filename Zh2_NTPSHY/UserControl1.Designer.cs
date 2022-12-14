@@ -85,7 +85,7 @@
             this.listBox2.ItemHeight = 15;
             this.listBox2.Location = new System.Drawing.Point(199, 96);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(120, 304);
+            this.listBox2.Size = new System.Drawing.Size(232, 304);
             this.listBox2.TabIndex = 3;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
@@ -105,7 +105,7 @@
             this.courseNameDataGridViewTextBoxColumn,
             this.roomNameDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.dtgBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(400, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(518, 96);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(368, 301);
